@@ -1,0 +1,376 @@
+<!-- 
+1)Fix the bugs in below snippet :
+<html lang="en">
+<head>
+    <title>Document
+        <body>
+            guvi
+    </title>
+</head>
+<div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div>
+        <div>
+            Guvi Geek Network
+        </div>
+    </body>
+</html>
+-->
+<!-- Output: -->
+<html lang="en">
+<head>
+    <title>Document </title>
+    
+</head>
+<body>
+   <h1>Guvi</h1>     <!-- Here I used heading tag to "guvi" -->
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div>Guvi Geek Network</div>
+</body>
+</html>
+<!---------------------------------------------------------------------- 
+2)Try the below one
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+     -->
+     <!-- Output -->
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div>Guvi</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div>Guvi Geek Network</div>
+</body>
+</html>
+<!-- ---------------------------------------------------------------------------------------- -->
+<!-- 3)Design a contact us form with all fields as required. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- input from the user -->
+    <form action="" method="get">
+        <h1>Contact us</h1> 
+        <p>Please fill out this form we will get in touch with you shortly.</p>
+        <h3>Your Name</h3>        
+        <label for="">First name</label>  
+        <input type="text" default="deepak">
+        <label for="">Last name</label>  
+        <input type="text" default="deepak">
+        <h3>Your E-mail Address</h3>
+        <input type="text" default="deepak">
+        <h3>Phone number</h3>
+        <label for="">Country code</label>
+        <input type="number">
+        <label for="">Phone Number</label>
+        <input type="number">
+        <br><br>
+         <!-- for submit button -->
+        <input type="submit">
+    </form>
+</body>
+</html>
+<!-- Output is shown in the readme file as screenshot 
+-------------------------------------------------------------------------->
+
+<!-- 4) Use certain HTML elements to display the unordered list in a HTML page. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Programming Language</li>
+            <ul>
+                <li>Javascript</li>
+                    <ol type="a">
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                    </ol>
+                <li>Python</li>
+                    <ol type="a">
+                        <li>Django Framework</li>
+                        <li>Flash Framework</li>
+                    </ol>
+                <li>Jave</li>
+                    <ol type="a">
+                        <li>Spring</li>
+                        <li>Maven</li>
+                        <li>Hibernate</li>
+                    </ol>
+            </ul>
+        <li>Database</li> 
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Cansandra</li>
+            </ul>    
+    </ul>
+</body>
+</html>
+<!-- The Above program output is shown in the readme file in repository -->
+
+<!-- 5)Create an element that helps you to open the https://google.com in separate new tab. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Click the below word "Google" to open the goole search in next tab.</p>
+    <a href="http://google.com" target="_blank">Google</a>
+</body>
+</html>
+<!-- The above program output are shown in the readme.md file in repository. -->\
+
+<!-- 6)In the form, add two radio buttons with grouping them for employee type(Salaried and own business) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <p>Select the Radio button and click on Submit</p>
+        <input type="radio" name="test">Salaried 
+        <input type="radio" name="test">Own Business
+        <hr>
+        <input type="Submit">
+    </form>
+</body>
+</html>
+<!-- Output for this above program is in readme.md file. -->
+
+<!-- 7)Form Design as messioned in the quesion: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe form</title>
+    <style>
+        #address{
+            width: 90%
+        }
+        #s{
+            border-style: solid;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <fieldset id="s">
+    <form action="" method=""></form>
+        
+        <h1 style="color:white;background-color:rgb(255, 47, 47);"> Yes! I want to subscribe to Mag-O-Zine</h1>
+        
+        <label for="">First Name</label>
+        <Input type="text">       
+        <label for="">Last Name</label>
+        <Input type="text"><br><br>
+        <label for="">Address</label>
+        <input type="text" id="address"><br><br>
+        <label for="">City</label>
+        <input type="text" >
+        <label for="">State</label>
+        <input type="text" >
+        <label for="">Zip</label>
+        <input type="text" ><br><br>
+        <h3>subscribe for:</h3>
+        <input type="radio" name="test"><b>1 Year ($19.95)</b>
+        <input type="radio" name="test"><b>2 Year ($35.00)</b>
+        <h3>Send me more information about:</h3>
+        <input type="checkbox"><b>Computer-Zine</b><br>
+        <input type="checkbox"><b>Fishing-Zine</b><br>
+        <input type="checkbox"><b>Cat-O-Zine</b>
+        
+    </form>
+</fieldset>
+</body>
+</html>
+
+<!-- 8)use the table tag to design given image. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Cart</title>
+</head>
+<body>
+     <p align="center">Health Chart</p>
+    <table border=1 align="center" width=100% bordercolor="black" cellspacing="0" >
+            <thead cellspacing="0" align="center">
+                <td rowspan="2">State of Health
+                 <td colspan="2" >Fasting Value
+                 <td colspan="2">After Eating
+            
+            <tr align="center" > 
+                 <td>Minimum</td>
+                 <td>Maximum</td>
+                 <td>2hours after eating</td>
+            </tr>
+
+            <tr align="center" >
+                  <td>Health</td>
+                  <td>70</td>
+                  <td>100</td>
+                  <td>Less than 140</td>
+            </tr>
+            <tr align="center" >
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr align="center" >
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+      </tr>
+    </table>
+</body>
+</html>
+<!-- above program output is in read.md file -->
+
+<!-- 9)HTML input tags snippet to show default values for all form elements. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snippets</title>
+</head>
+<body>
+    <form action="" method="get"g></form>
+    <h1>Form Elemetns in HTML:</h1>
+    <fieldset>
+        <legend style="font-size:30px">Topic what ever it may be</legend>
+        <label for="">Enter your name:</label>
+        <input type="text" value="Ironman"><br><br>
+        <label for="">contact Number:</label>
+        <input type="Number" value="123456789"><br><br>
+        <label for="">Address :</label><br>
+        <textarea cols="30" rows="5" ></textarea><br><br>
+        <label>Enter your valid degree:</label>
+        <input list="browser">
+        <datalist id="browser">
+            <option value="Engineering">
+            <option value="Arts">
+            <option value="Fashion Tech">
+            <option value="Diploma">
+        </datalist>
+        <fieldset>
+            <legend>Do you agree the terms?</legend>
+            <label><input type="radio" name="radio" value="yes">Yes</label>
+            <label><input type="radio" name="radio" value="no">No</label>
+        </fieldset><br>
+        <input type="submit" value="Subscribe">
+
+    </fieldset>
+</body>
+</html>
+<!-- output for the above program is shown in readme.md file. -->
+
+<!-- 10)HTML page adding some line and lighlight without css. -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <mark style="font-size: 60px;">"HTML & CSS is awesome"</mark>
+</body>
+</html>
+<!-- output for the above program is shown in readme.md file. -->
+
+<!-- 11)HTML page, contains all types of input elements: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snippet</title>
+</head>
+<body>
+    <h3>Contains all type of input elemnts</h3>
+    <hr>
+    <label for="">Checkbox</label>
+    <input type="checkbox"><br><br>
+    <label for="">Color bor for selecting color</label>
+    <input type="color" ><br><br>
+    <label for="">Select Date</label>
+    <input type="date" ><br><br>
+    <label for="">To enter date time locaiton</label>
+    <input type="datetime-local"><br><br>
+    <label for="">Enter email</label>
+    <input type="email" ><br><br>
+    <label for="">To choose file from local machine</label>
+    <input type="file"><br><br>
+    <label for="">Select Month</label>
+    <input type="month" ><br><br>
+    <label for="">Enter only Number</label>
+    <input type="number" ><br><br>
+    <label for="">Enter password</label>
+    <input type="password"><br><br>
+    <label for="">Yes/No</label>
+    <input type="radio"><br><br>
+    <label for="">Volume</label>
+    <input type="range"><br><br>
+    <label for="">Click here to reset</label>
+    <input type="reset"><br><br>
+    <label for="">Enter something to search</label>
+    <input type="search" ><br><br>
+    <label for="">Enter tel</label>
+    <input type="tel" ><br><br>
+    <label for="">Enter only text</label>
+    <input type="text" > <br><br>
+    <label for="">Select time</label>
+    <input type="time"><br><br>
+    <label for="">Enter Url </label>
+    <input type="url" value="http://www.google.com"><br><br>
+    <label for="">Select week</label>
+    <input type="week"><br><br>
+    <label for="">Submit button</label>
+    <input type="submit"><br><br>
+</body>
+</html>
+<!-- output for the above program is shown in readme.md file. -->
